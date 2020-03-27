@@ -9,10 +9,10 @@
 ### Android (Samsung galaxy s7 - One Plus 6 ....)
 Sign In - Sign up
 
-![signinscreen](https://i.imgur.com/snjOZhn.png)
+![signinscreen](https://i.imgur.com/Zw16USA.png)
 ![signupscrenn](https://i.imgur.com/aHhI3P2.png)
 ### IOS (Iphone 5 Iphone X Ipad Pro 2018 ...)
 Sign In - Sign up
 
-![signinscreen](https://i.imgur.com/zpkLB0P.png)
+![signinscreen](https://i.imgur.com/4fEJNMe.png)
 ![signupscrenn](https://i.imgur.com/VXmZ8DU.png)
