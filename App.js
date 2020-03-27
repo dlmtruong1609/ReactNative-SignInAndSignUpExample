@@ -1,12 +1,10 @@
 import React from 'react';
-
-
-import FormLogin from './screens/FormLogin';
-import { View } from 'react-native';
+import 'react-native-gesture-handler';
+import Direction from './router/Direction';
 
 const App = () => {
   return (
-      <FormLogin/>
+      <Direction/>
   );
 };
 

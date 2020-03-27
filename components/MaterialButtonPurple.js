@@ -4,8 +4,8 @@ import { StyleSheet, TouchableOpacity, Text } from "react-native";
 
 const MaterialButtonPurple = (props) => {
   return (
-    <TouchableOpacity style={[styles.container, props.style]}>
-      <Text style={styles.caption}>Sign up</Text>
+    <TouchableOpacity onPress={props.onPress} style={[styles.container, props.style]}>
+      <Text style={styles.caption}>{props.name}</Text>
     </TouchableOpacity>
   );
 };

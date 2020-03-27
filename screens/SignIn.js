@@ -3,11 +3,11 @@ import { StyleSheet, View, Text, TextInput, StatusBar } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import MaterialButtonPurple from "../components/MaterialButtonPurple";
 
-function FormLogin(props) {
+function SignIn({navigation}) {
   return (
     <View style={styles.container}>
       <View style={styles.group}>
-        <Text style={styles.titleApp}>Title App</Text>
+        <Text style={styles.titleApp}>Sign In</Text>
         <Icon name="fingerprint" style={styles.icon}></Icon>
         <TextInput
           placeholder="Username"
@@ -20,10 +20,10 @@ function FormLogin(props) {
           style={styles.textInput}
         ></TextInput>
         <View style={styles.materialButtonPurple3Row}>
-          <MaterialButtonPurple
+          <MaterialButtonPurple name="Sign In"
             style={styles.materialButtonPurple3}
           ></MaterialButtonPurple>
-          <MaterialButtonPurple
+          <MaterialButtonPurple name="Sign Up" onPress={() => navigation.navigate('SignUp')}
             style={styles.materialButtonPurple2}
           ></MaterialButtonPurple>
         </View>
@@ -124,4 +124,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default FormLogin;
+export default SignIn;
