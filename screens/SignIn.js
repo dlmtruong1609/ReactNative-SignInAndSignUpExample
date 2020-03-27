@@ -48,11 +48,12 @@ const styles = StyleSheet.create({
   },
   group: {
     height: 378,
-    marginTop: 77
+    marginTop: 77,
+    alignSelf: "center"
   },
   titleApp: {
     width: 424,
-    height: 30,
+    height: 35,
     color: "rgba(255,255,255,1)",
     fontSize: 25,
     fontFamily: "roboto-700",

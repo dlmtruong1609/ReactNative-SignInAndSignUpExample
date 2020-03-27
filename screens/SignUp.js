@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   signUp: {
     width: 393,
-    height: 30,
+    height: 35,
     color: "rgba(255,255,255,1)",
     fontSize: 25,
     fontFamily: "roboto-700",
