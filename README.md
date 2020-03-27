@@ -7,14 +7,11 @@
 4. `npm start`
 ## UI
 ### Android
-1. Samsung galaxy s7
+Samsung galaxy s7 - One Plus 6
 ![loginscreen](https://i.imgur.com/84I9bcQ.png)
-2. One Plus 6
 ![loginscreen](https://i.imgur.com/8xNFAGp.png)
 ### IOS
-1. Iphone 5
+Iphone 5 Iphone X Ipad Pro 2018
 ![loginscreen](https://i.imgur.com/BTqC1XY.png)
-2. Iphone X
 ![loginscreen](https://i.imgur.com/ox1mFmR.png)
-3. Ipad Pro 2018
 ![loginscreen](https://i.imgur.com/OzXpIzb.png)
