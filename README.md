@@ -9,8 +9,8 @@
 ### Android (Samsung galaxy s7 - One Plus 6 ....)
 Login
 
-![loginscreen](https://i.imgur.com/84I9bcQ.png "Square Shadow")
+![loginscreen](https://i.imgur.com/snjOZhn.png)
 ### IOS (Iphone 5 Iphone X Ipad Pro 2018 ...)
 Login
 
-![loginscreen](https://i.imgur.com/ox1mFmR.png "Circle Shadow")
+![loginscreen](https://i.imgur.com/zpkLB0P.png)
