@@ -15,7 +15,7 @@ function SignIn({navigation}) {
           style={styles.textInput1}
         ></TextInput>
         <TextInput
-          placeholder="Passowrd"
+          placeholder="Passowrd" secureTextEntry={true}
           placeholderTextColor="rgba(255,255,255,1)"
           style={styles.textInput}
         ></TextInput>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
   textInput1: {
     width: 355,
     height: 50,
-    color: "#121212",
+    color: "#FFFFFF",
     borderColor: "rgba(144,19,254,1)",
     borderWidth: 0,
     borderBottomWidth: 4,
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   textInput: {
     width: 355,
     height: 50,
-    color: "#121212",
+    color: "#FFFFFF",
     borderColor: "rgba(144,19,254,1)",
     borderWidth: 0,
     borderBottomWidth: 4,

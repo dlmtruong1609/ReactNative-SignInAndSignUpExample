@@ -14,12 +14,12 @@ function SignUp({navigation}) {
           placeholderTextColor="rgba(255,255,255,1)"
           style={styles.textInput1}
         ></TextInput>
-        <TextInput
+        <TextInput secureTextEntry={true}
           placeholder="Passowrd"
           placeholderTextColor="rgba(255,255,255,1)"
           style={styles.textInput}
         ></TextInput>
-        <TextInput
+        <TextInput secureTextEntry={true}
           placeholder="Confirm Password"
           placeholderTextColor="rgba(255,255,255,1)"
           style={styles.textInput2}
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   textInput1: {
     width: 329,
     height: 50,
-    color: "#121212",
+    color: "#FFFFFF",
     borderColor: "rgba(144,19,254,1)",
     borderWidth: 0,
     borderBottomWidth: 4,
@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   textInput: {
     width: 329,
     height: 50,
-    color: "#121212",
+    color: "#FFFFFF",
     borderColor: "rgba(144,19,254,1)",
     borderWidth: 0,
     borderBottomWidth: 4,
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   textInput2: {
     width: 329,
     height: 50,
-    color: "#121212",
+    color: "#FFFFFF",
     borderColor: "rgba(144,19,254,1)",
     borderWidth: 0,
     borderBottomWidth: 4,
