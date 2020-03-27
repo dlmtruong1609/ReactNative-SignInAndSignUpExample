@@ -8,7 +8,7 @@
 ## UI
 ### Android
 Samsung galaxy s7 - One Plus 6 ....
-![loginscreen](https://i.imgur.com/84I9bcQ.png)
+![loginscreen](https://i.imgur.com/84I9bcQ.png "Square Shadow")
 ### IOS
 Iphone 5 Iphone X Ipad Pro 2018 ...
-![loginscreen](https://i.imgur.com/ox1mFmR.png)
+![loginscreen](https://i.imgur.com/ox1mFmR.png "Circle Shadow")
