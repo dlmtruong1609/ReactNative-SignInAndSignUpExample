@@ -1,4 +1,4 @@
-# Login - Sign up - React Native - Responsive
+# Sign In - Sign up - React Native - Responsive
 # Make By Dang Truong
 ## Tourial
 1. Download or clone (`git clone https://github.com/dlmtruong1609/LoginReactNative.git`)
@@ -7,10 +7,12 @@
 4. `npm start`
 ## UI
 ### Android (Samsung galaxy s7 - One Plus 6 ....)
-Login
+Sign In - Sign up
 
-![loginscreen](https://i.imgur.com/snjOZhn.png)
+![signinscreen](https://i.imgur.com/snjOZhn.png)
+![signupscrenn](https://i.imgur.com/aHhI3P2.png)
 ### IOS (Iphone 5 Iphone X Ipad Pro 2018 ...)
-Login
+Sign In - Sign up
 
-![loginscreen](https://i.imgur.com/zpkLB0P.png)
+![signinscreen](https://i.imgur.com/zpkLB0P.png)
+![signupscrenn](https://i.imgur.com/VXmZ8DU.png)
