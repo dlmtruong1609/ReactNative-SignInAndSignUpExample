@@ -1,7 +1,6 @@
 package com.formlogin;
 
 import com.facebook.react.ReactActivity;
-
 public class MainActivity extends ReactActivity {
 
   /**
