@@ -12,6 +12,8 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 import {Dimensions } from "react-native";
 
 import Svg, { Path } from 'react-native-svg';
+
+import ButtonGreen from '../components/Button/ButtonGreen';
 function SignUp({navigation}) {
   return (
     <Grid style={styles.container}>
@@ -56,7 +58,7 @@ function SignUp({navigation}) {
           </Form>
       </Row>
       <Row style={{justifyContent: "center", top: hp("10%")}}>
-        <Button rounded style={styles.btnSignUp}  onPress={() => navigation.navigate('SignUp')}><Text style={{color: "#fff",fontWeight: "bold", fontSize: 20}}>Sign Up</Text></Button>
+        <ButtonGreen name="Sign Up" onPress={() => navigation.navigate('SignUp')} top={hp("7%")}></ButtonGreen>
       </Row>
     </Grid>
   );
@@ -67,13 +69,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     position: "relative",
     flex: 1
-  },
-  btnSignUp: {
-    width: "80%",
-    height: hp("8"),
-    backgroundColor: "rgba(15,121,110, 1)",
-    top: hp("7%"),
-    justifyContent: "center"
   },
   form: {
     width: "80%",

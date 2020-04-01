@@ -4,7 +4,10 @@ import { StyleSheet, View, Image, ImageBackground, TouchableOpacity } from "reac
 
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-import { Container, Content, Grid, Row, Button, Text, Col } from "native-base";
+import { Grid, Row, Button, Text, Col } from "native-base";
+
+import ButtonGreen from "../components/Button/ButtonGreen";
+import ButtonWhite from "../components/Button/ButtonWhite";
 
 const Home = ({navigation}) => {
   return (
@@ -20,8 +23,8 @@ const Home = ({navigation}) => {
           uri: 'https://i.imgur.com/SONWM6V.png',
         }} resizeMode="cover"/><Text style={styles.txtTitle}>Make by Dang Truong</Text></Row>
         <Row><Text style={styles.txtSlogan}>Every part of the world is green, if every heart of the human is green.</Text></Row>
-        <Row style={{justifyContent: "center"}}><Button rounded style={styles.btnSignUp}  onPress={() => navigation.navigate('SignUp')}><Text style={{fontWeight: "bold", color: "#fff",  fontSize: 20}} >Sign Up</Text></Button></Row>
-        <Row style={{justifyContent: "center"}}><Button rounded style={styles.btnSignIn}  onPress={() => navigation.navigate('SignIn')}><Text style={{color: "rgba(15,121,110,1)",fontWeight: "bold", fontSize: 20}}>Sign In</Text></Button></Row>
+        <Row style={{justifyContent: "center"}}><ButtonGreen name="Sign Up" onPress={() => navigation.navigate('SignUp')} top={hp("22")}></ButtonGreen></Row>
+        <Row style={{justifyContent: "center"}}><ButtonWhite top={hp('14')} style={styles.btnSignIn} onPress={() => navigation.navigate('SignIn')} name="Sign In"></ButtonWhite></Row>
         <Row style={{justifyContent: "center"}}><Text style={styles.txtFotgotPW}>Forgot password?</Text></Row>
     </Grid>
     </ImageBackground>
@@ -35,20 +38,6 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(15,15, 15,1)",
     flex: 1,
     position: "absolute"
-  },
-  btnSignUp: {
-    width: "80%",
-    height: hp("8"),
-    backgroundColor: "rgba(15,121,110, 0.7)",
-    top: hp("22"),
-    justifyContent: "center"
-  },
-  btnSignIn: {
-    width: "80%",
-    height: hp("8"),
-    top: hp("14"),
-    backgroundColor: "rgba(255,255,255,1)",
-    justifyContent: "center"
   },
   txtFotgotPW: {
     color: "#fff",

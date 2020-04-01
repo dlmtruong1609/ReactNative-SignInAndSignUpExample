@@ -10,6 +10,8 @@ import { Container, Content, Grid, Row, Button, Text, Input, Form, Item, View, C
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 import Svg, { Path } from 'react-native-svg';
+
+import ButtonGreen from '../components/Button/ButtonGreen';
 function SignIn({navigation}) {
   return (
     <Grid style={styles.container}>
@@ -64,7 +66,7 @@ function SignIn({navigation}) {
           </Form>
       </Row>
       <Row style={{justifyContent: "center", top: hp("8%")}} >
-        <Button rounded style={styles.btnSignUp}  onPress={() => navigation.navigate('SignIn')}><Text style={{color: "#fff",fontWeight: "bold", fontSize: 20}}>Sign In</Text></Button>
+       <ButtonGreen name="Sign In" onPress={() => navigation.navigate('SignUp')} top={hp("7%")}></ButtonGreen>
       </Row>
     </Grid>
   );
@@ -75,13 +77,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     position: "relative",
     flex: 1
-  },
-  btnSignUp: {
-    width: "80%",
-    height: hp("8"),
-    backgroundColor: "rgba(15,121,110, 1)",
-    top: hp("7%"),
-    justifyContent: "center"
   },
   form: {
     width: "80%",
