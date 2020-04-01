@@ -10,12 +10,12 @@
 ### Android (Samsung galaxy s7 - One Plus 6 ....)
 - Home Screen
 
-![homescreen](https://i.imgur.com/YNsy0yB.png)
+![homescreen](https://i.imgur.com/D31akue.png)
 
 - Sign In - Sign Up
 
-![signin](https://i.imgur.com/zWQIESD.png)
-![signup](https://i.imgur.com/rUALRYO.png)
+![signin](https://i.imgur.com/0qZ0Cr2.png)
+![signup](https://i.imgur.com/7SKJC3F.png)
 
 ### IOS (Iphone 5 Iphone X Ipad Pro 2018 ...)
 Unchecked
