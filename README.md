@@ -8,12 +8,19 @@
 5. `npm start`
 ## UI
 ### Android (Samsung galaxy s7 - One Plus 6 ....)
-Sign In - Sign up
+- Home Screen
 
-![signinscreen](https://i.imgur.com/Zw16USA.png)
-![signupscrenn](https://i.imgur.com/aHhI3P2.png)
+![homescreen](https://i.imgur.com/YNsy0yB.png)
+
+- Sign In - Sign Up
+
+![signin](https://i.imgur.com/zWQIESD.png)
+![signup](https://i.imgur.com/rUALRYO.png)
+
 ### IOS (Iphone 5 Iphone X Ipad Pro 2018 ...)
-Sign In - Sign up
+Unchecked
 
-![signinscreen](https://i.imgur.com/4fEJNMe.png)
-![signupscrenn](https://i.imgur.com/VXmZ8DU.png)
+## Source: 
+- Design: https://dribbble.com/shots/7783988-Plant-Shop-Mobile-App
+- Image Background: https://www.pinterest.com/pin/701083866972454240/
+- Image Other: https://www.pinterest.com/pin/37506609381691682/
