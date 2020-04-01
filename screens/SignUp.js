@@ -12,7 +12,6 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 import {Dimensions } from "react-native";
 
 import Svg, { Path } from 'react-native-svg';
-const screenWidth = Math.round(Dimensions.get('window').width);
 function SignUp({navigation}) {
   return (
     <Grid style={styles.container}>
@@ -40,11 +39,11 @@ function SignUp({navigation}) {
           <Image style={styles.image} source={{uri: "https://i.imgur.com/3zbcvRT.png"}}/>
         </Col>
       </Row>
-      <Row style={{justifyContent: "center", top: hp("10"), height: hp("40%")}}>
+      <Row style={{justifyContent: "center", top: hp("10"), height: hp("40%"), zIndex: 5}}>
           <Form style={styles.form}>
             <Item style={styles.item}>
               <FontAwesomeIcon style={styles.icon} icon={faEnvelopeSquare}/>
-              <Input style={styles.textInput} placeholder="Email" />
+              <Input style={styles.textInput} placeholder="Email"/>
             </Item>
             <Item style={styles.item}>
               <FontAwesomeIcon style={styles.icon} icon={faKey}/>
@@ -52,7 +51,7 @@ function SignUp({navigation}) {
             </Item>
             <Item style={styles.item}>
               <FontAwesomeIcon style={styles.icon} icon={faKey}/>
-              <Input style={styles.textInput} placeholder="Confirm Password" />
+              <Input style={styles.textInput} placeholder="Confirm Password"/>
             </Item>
           </Form>
       </Row>
@@ -100,6 +99,9 @@ const styles = StyleSheet.create({
     width: wp("50%"),
     height: hp("70%"),
     top: hp("0%")
+  },
+  icon: {
+    color: "black"
   }
 });
 
