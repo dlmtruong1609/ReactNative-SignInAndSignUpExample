@@ -7,7 +7,7 @@
 4. `npm run android` to install app
 5. `npm start`
 ## UI
-### Android (Samsung galaxy s7 - One Plus 6 ....)
+### Android (Samsung galaxy s7, One Plus 6, Mi 6X,...)
 - Home Screen
 
 ![homescreen](https://i.imgur.com/D31akue.png)
