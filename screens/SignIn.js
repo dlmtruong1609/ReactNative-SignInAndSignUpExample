@@ -53,7 +53,7 @@ function SignIn({navigation}) {
           <Image style={styles.image} source={{uri: "https://i.imgur.com/3zbcvRT.png"}}/>
         </Col>
       </Row>
-      <Row style={{justifyContent: "center", top: hp("18"), height: hp("40%"), zIndex: 5}}>
+      <Row style={{justifyContent: "center", top: hp("22"), height: hp("40%"), zIndex: 5}}>
           <Form style={styles.form}>
             <Item style={styles.item}>
               <FontAwesomeIcon style={styles.icon} icon={faEnvelopeSquare}/>
@@ -65,7 +65,7 @@ function SignIn({navigation}) {
             </Item>
           </Form>
       </Row>
-      <Row style={{justifyContent: "center", top: hp("8%")}} >
+      <Row style={{justifyContent: "center", top: hp("10%")}} >
        <ButtonGreen name="Sign In" onPress={() => navigation.navigate('SignUp')} top={hp("7%")}></ButtonGreen>
       </Row>
     </Grid>
